@@ -1,0 +1,111 @@
+.carousel-container {
+    position: relative;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    /* margin: 0; */
+    height: 80vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Slides {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    /* display: none; */
+}
+
+.carousel-images {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: seashell;
+    background-color: rgba(211, 211, 211, 0.85);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    font-weight: 900;
+}
+
+.prev {
+    left: 2%;
+    border-radius: 80% 28% 20% 80% / 50% 50% 50% 50%;
+}
+
+.next {
+    right: 2%;
+    border-radius: 20% 80% 80% 20% / 50% 50% 50% 50%;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #ff8b17e7;
+}
+
+.prev:hover {
+    box-shadow: rgba(150, 89, 155, 0.4) 5px 0px, rgba(150, 89, 155, 0.3) 10px 0px, rgba(150, 89, 155, 0.2) 15px 0px, rgba(150, 89, 155, 0.1) 20px 0px, rgba(150, 89, 155, 0.05) 25px 0px;
+}
+
+.next:hover {
+    box-shadow: rgba(150, 89, 155, 0.4) -5px 0px, rgba(150, 89, 155, 0.3) -10px 0px, rgba(150, 89, 155, 0.2) -15px 0px, rgba(150, 89, 155, 0.1) -20px 0px, rgba(150, 89, 155, 0.05) -25px 0px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 5px;
+    width: 50px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 10%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    /* display: inline-block;
+    cursor: pointer;
+    width: 50px;
+    height: 10px;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff8b17e7;
+    background-color: rgba(0, 0, 0, 0); */
+}
+
+.active,
+.dot:hover {
+    background-color: #ff8b17e7;
+    transform: translateY(-200%);
+    box-shadow: rgba(150, 89, 155, 0.4) 0px 5px, rgba(150, 89, 155, 0.3) 0px 10px, rgba(150, 89, 155, 0.2) 0px 15px;
+}
+
+.Fade {
+    animation-name: Fade;
+    animation-duration: 0.5s;
+}
+
+@keyframes Fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}

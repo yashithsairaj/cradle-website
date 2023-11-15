@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;500;600&display=swap');
+
+.navbar {
+    width: 100vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+    z-index: 1000000;
+}
+
+.nav_selections {
+    display: inline-flex;
+    justify-content: space-around;
+    flex: 1;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.nav_logo {
+    padding-top: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+    flex: 0;
+}
+
+.nav_logo img {
+    height: 50px;
+    object-fit: contain;
+}
+
+.nav_elements {
+    height: 53%;
+    width: 20%;
+    padding: 5px;
+    padding-top: 24px;
+    text-align: center;
+    transition: all 0.2s;
+    overflow: hidden;
+}
+
+/* .nav_elements:hover {
+    /* display: inline-block; */
+/* background-color: #ff8b17e7;
+    border-bottom: 3px solid #95599b; */
+/* border-radius: 10px; */
+/*} */
+
+.nav_elements:hover a {
+    /* transition: all 1s; */
+    /* border-bottom: 2px solid #95599b; */
+    color: whitesmoke;
+
+}
+
+
+.nav_elements a {
+    text-decoration: none;
+    color: #95599b;
+
+}
+
+.nav_elements_links {
+    width: 20%;
+    text-decoration: none;
+    color: #95599b;
+    transition: all 0.1s;
+}
+
+
+.nav_elements_links:hover {
+    background-color: #ff8b17e7;
+    color: whitesmoke;
+
+    .nav_elements {
+        transform: translateY(-1px);
+    }
+
+}
+
+.nav_elements {
+    width: 100%;
+}

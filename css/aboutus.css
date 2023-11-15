@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;500;600&family=Quicksand:wght@300;400;500&display=swap');
+
+.About_head {
+    /* height: 80%;
+    width: 80%; */
+    position: relative;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* margin: 0; */
+
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+.About_head {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 30px;
+    color: #95599b;
+    cursor: default;
+    transition: all 1s ease-in;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+.About_head_text {
+    text-decoration: underline 3px;
+    transition: all 1s;
+}
+
+.About_head_text:hover {
+    color: #ff8b17e7;
+    transform: translateY(-3px);
+}
+
+
+.vision_box {
+    margin: 20px;
+    padding: 0 20px 0 0px;
+    font-family: 'Quicksand', sans-serif;
+    text-indent: 50px;
+    text-align: center;
+    width: 75vw;
+    background-color: aliceblue;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    line-height: 27px;
+}
+
+.vision_heading {
+    text-align: center;
+    position: relative;
+    left: 45%;
+    transform: translateX(-50%);
+    margin-bottom: 25px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ff8b17e7;
+}
+
+.montessori_box {
+    margin: 20px;
+    padding: 0 20px 0 0px;
+    font-family: 'Quicksand', sans-serif;
+    text-indent: 50px;
+    text-align: center;
+    width: 75vw;
+    height: auto;
+    background-color: aliceblue;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    line-height: 27px;
+}
+
+.Maria_img {
+    margin: 0 10px 10px 0;
+    /* float: left; */
+}
+
+/* .Maria_img img{
+    height: 250px;
+    object-fit: contain;
+} */
+.Maria_img_alt {
+    float: left;
+    width: 12%;
+    border-radius: 50%;
+    /* shape-outside: circle(); */
+    object-fit: contain;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.montessori_heading {
+    text-align: center;
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+    margin-bottom: 25px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ff8b17e7;
+}
+
+.montessori_content {
+    text-align: justify;
+    margin: 5px;
+}
