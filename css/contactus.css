@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;500;600&family=Quicksand:wght@300;400;500&display=swap');
+
+
+
+.Contact_head {
+    /* height: 80%;
+    width: 80%; */
+    position: relative;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* margin: 0; */
+
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+.Contact_head {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 30px;
+    color: #95599b;
+    cursor: default;
+    transition: all 1s ease-in;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Contact_head_text {
+    text-decoration: underline 3px;
+    transition: all 1s;
+}
+
+.Contact_head_text:hover {
+    color: #ff8b17e7;
+    transform: translateY(-3px);
+}
+.flex-align-right{
+    margin-left: auto;
+
+}
+.fh:hover{
+    background-color: white;
+    color: black; 
+}
+
+footer{
+    display: flex;
+    background-color: #fff;
+    overflow:hidden ;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    color: #000; 
+    text-align: center;
+    padding: 14px 20px ;
+    float: left;
+}
+
+
+.maps {
+    display: block;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 450px;
+    width: 550px;
+  }
+
+  @media screen and (max-width:700px){
+    footer {
+        flex-direction:column ;
+        padding: 10px 0px;
+    }
+
+    .flex-align-right{
+        margin-left: 0;
+    }
+    
+}
