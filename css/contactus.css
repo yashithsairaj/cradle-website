@@ -7,14 +7,23 @@
 .Contact_heading {
     text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    text-decoration: underline;
     font-size: 45px;
     font-weight: 700;
-    padding-top: 30px;
+    padding: 30px 0 30px 0;
     color: #95599b;
     cursor: default;
     transition: all 1s ease-in;
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Contact_heading h1 {
+    transition: all 1s ease-in;
+    text-decoration: underline 3px;
+}
+
+.Contact_heading:hover h1{
+    color: #ff8b17e7;
+    transform: translateY(-3px);
 }
 
 .Contact_details {
@@ -27,7 +36,7 @@
 }
 
 .Contact_logo {
-    padding: 0 10px 10px 20px;
+    padding: 0 10px 10px 35px;
 }
 
 .Contact_logo img {
@@ -39,13 +48,16 @@
     display: inline-block;
     margin-bottom: 20px;
     padding: 10px;
+    line-height: 25px;
 }
 
 .Contact_text_elements {
     color: #95599b;
+    font-size: 1.1em;
     font-weight: 400;
     width: 33.33%;
     padding: 20px;
+    padding-bottom: 10px;
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
@@ -56,11 +68,19 @@
     box-shadow: 0 0 0 2px rgba(150, 89, 155, 1), 8px 8px 0 0 rgba(150, 89, 155, 1);
 
     transition: all 0.3s;
+
+    width: 30vw;
+    height: 35vh;
 }
 
 .Map_grid:hover {
     box-shadow: 0 0 0 2px rgba(255, 140, 26, 0.906), 10px 10px 0 0 rgba(255, 140, 26, 0.906), rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transform: translateY(-5px);
+}
+
+#frame{
+    width: 100%;
+    height: 100%;
 }
 
 .linebreak {
@@ -69,4 +89,14 @@
     background-color: #95599b;
     color: #95599b;
     line-height: 169px;
+}
+
+.Email_email{
+    color: #95599b;
+    transition: all 0.3s;
+}
+
+.Email_email:hover{
+    color: #ff8b17e7;
+    transform: translateY(-3px);
 }

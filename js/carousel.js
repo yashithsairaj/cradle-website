@@ -50,6 +50,6 @@ function showSlide() {
     if (slideInde > slider.length) { slideInde = 1 }
     slider[slideInde - 1].style.display = "block";
     dots[slideInde - 1].className += " active";
-    setTimeout(showSlide, 2000);
+    setTimeout(showSlide, 4000);
 
 }
