@@ -103,6 +103,14 @@
     object-position: 25% 50%;
 }
 
+#Summercamp-image{
+    object-position: 50% 50%;
+}
+
+#Daycare-image{
+    object-position: 60% 50%;
+}
+
 
 
 .Elements-front:hover.Elements-back {
