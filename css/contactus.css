@@ -100,3 +100,47 @@
     color: #ff8b17e7;
     transform: translateY(-3px);
 }
+
+@media (max-width: 1100px){
+    .Contact_logo{
+        padding: 50px 0 0 0;
+    }
+
+    .Contact_logo img{
+        height: 100px;
+    }
+
+    .Contact_section{
+        margin-top: 100px;
+    }
+
+    .Contact_heading{
+        font-size: 55px;
+    }
+
+    .Contact_details{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .linebreak{
+        width: 40%;
+        height: 4px;
+        margin: 40px 0 40px 0;
+    }
+
+    .Map_grid{
+        width: 80vw;
+        height: 20vh;
+    }
+
+    .Contact_text_elements{
+        width: 80vw;
+        height: 15vh;
+        font-size: 35px;
+    }
+
+    .Address_address{
+        line-height: 40px;
+    }
+}

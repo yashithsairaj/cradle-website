@@ -60,7 +60,7 @@
 .vision_heading {
     text-align: center;
     position: relative;
-    left: 45%;
+    left: 46%;
     transform: translateX(-50%);
     margin-bottom: 20px;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -85,6 +85,16 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 30px;
     line-height: 27px;
+}
+
+.montessori_contentbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.montessori_content{
+    width: 80%;
 }
 
 .Maria_img {
@@ -114,7 +124,7 @@
 .montessori_heading {
     text-align: center;
     position: relative;
-    left: 40%;
+    left: 46%;
     transform: translateX(-50%);
     margin-bottom: 25px;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -126,4 +136,51 @@
 .montessori_content {
     text-align: center;
     margin: 5px;
+}
+
+@media (max-width: 1100px) {
+    .About_head{
+        font-size: 55px;
+    }
+
+    .vision_box{
+        width: 90vw;
+        font-size: 30px;
+        line-height: 40px;
+        
+    }
+
+    .vision_heading{
+        font-size: 35px;
+    }
+
+    .montessori_box{
+        width: 90vw;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .Maria_img{
+        width: 20%;
+    }
+
+    .montessori_heading{
+        font-size: 35px;
+    }
+
+    .montessori_box{
+        left: 48%;
+    }
+
+    .vision_box{
+        left: 48%;
+    }
+
+    .vision_heading{
+        left: 47.5%;
+    }
+
+    .montessori_heading{
+        left: 47.5%;
+    }
 }

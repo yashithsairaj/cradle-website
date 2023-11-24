@@ -30,7 +30,7 @@
 
 .nav_logo img {
     height: 50px;
-    object-fit: contain;
+    /* object-fit: contain; */
 }
 
 .nav_elements {
@@ -41,6 +41,7 @@
     text-align: center;
     transition: all 0.2s;
     overflow: hidden;
+    font-weight: 500;
 }
 
 /* .nav_elements:hover {
@@ -84,4 +85,16 @@
 
 .nav_elements {
     width: 100%;
+}
+
+@media (max-width: 1100px){
+    .nav_logo img{
+        height: 80px;
+    }
+
+    .nav_elements{
+        padding-top: 38px;
+        font-size: 20px;
+        font-weight: 500;
+    }
 }

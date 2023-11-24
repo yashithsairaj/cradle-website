@@ -109,3 +109,14 @@
         opacity: 1
     }
 }
+
+@media (max-width: 1100px){
+    .carousel-container{
+        height:25vh;
+    }
+
+    .prev, .next{
+        padding: 30px;
+        font-size: 25px;
+    }
+}

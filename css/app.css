@@ -1,15 +1,17 @@
 html {
     scroll-behavior: smooth;
+    width: 100vw;
 }
 
 .backimage-container {
     background-image: url("..//assets//background.avif");
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     top: 0;
     z-index: -2;
     opacity: 0.2;
+    overflow: hidden;
 }
 
 body::-webkit-scrollbar {
