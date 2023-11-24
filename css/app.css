@@ -27,6 +27,7 @@ body::-webkit-scrollbar {
     font-size: 50px;
     transition: all 0.2s;
     border-radius: 50% 50% 50% 50% / 80% 80% 20% 20%;
+    cursor: pointer;
 }
 
 .page_scroller div {
