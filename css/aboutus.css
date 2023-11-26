@@ -101,7 +101,7 @@
     margin: 0 10px 10px 0;
     /* float: left; */
     height: 50%;
-    width: 12%;
+    width: 15%;
 }
 
 /* .Maria_img img{
@@ -114,9 +114,9 @@
     float: left;
 
     /* shape-outside: circle(); */
-    width: 90%;
+    width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: 25% 50%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -147,7 +147,6 @@
         width: 90vw;
         font-size: 30px;
         line-height: 40px;
-        
     }
 
     .vision_heading{
@@ -182,5 +181,51 @@
 
     .montessori_heading{
         left: 47.5%;
+    }
+}
+
+@media(max-width: 420px){
+    .About_head{
+        font-size: 35px;
+    }
+
+    .vision_heading{
+        left: 50%;
+        font-size: 23px;
+    }
+
+    .vision_box{
+        width: 70vw;
+        left: 46%;
+        font-size: 15px;
+        text-indent: 0px;
+        line-height: 25px;
+    }
+
+    .montessori_heading{
+        left: 50%;
+        font-size: 25px;
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .montessori_box{
+        width: 70vw;
+        left: 46%;
+        padding: 20px;
+    }
+
+    .montessori_content{
+        width: 100%;
+        font-size: 15px;
+        text-indent: 0;
+        line-height: 25px;
+    }
+    .montessori_contentbox{
+        flex-direction: column;
+    }
+
+    .Maria_img{
+        width:40%;
     }
 }

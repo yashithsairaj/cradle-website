@@ -120,3 +120,14 @@
         font-size: 25px;
     }
 }
+
+@media(max-width: 420px){
+    .carousel-container{
+        height: 25vh;
+    }
+
+    .prev, .next{
+        padding: 13px;
+        font-size: 13px;
+    }
+}

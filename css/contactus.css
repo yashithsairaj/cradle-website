@@ -144,3 +144,28 @@
         line-height: 40px;
     }
 }
+
+@media (max-width: 420px){
+    .Contact_heading{
+        font-size: 35px;
+    }
+
+    .Contact_logo img{
+        width: 250px;
+    }
+
+    .Contact_text_elements{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .huh{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+
+    .Address_address{
+        line-height: 10px;
+    }
+}

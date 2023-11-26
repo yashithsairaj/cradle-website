@@ -46,3 +46,9 @@ body::-webkit-scrollbar {
     box-shadow: rgba(150, 89, 155, 0.4) 0px 5px, rgba(150, 89, 155, 0.3) 0px 10px, rgba(150, 89, 155, 0.2) 0px 15px, rgba(150, 89, 155, 0.1) 0px 20px, rgba(150, 89, 155, 0.05) 0px 25px;
     transform: translateY(-3px);
 }
+
+@media (max-width: 420px){
+    .page_scroller{
+        right: 40px;
+    }
+}
