@@ -155,17 +155,18 @@
     }
 
     .Contact_text_elements{
-        font-size: 15px;
-        padding-top: 10px;
+        font-size: 3.5vw;
+        padding: 2% 20px 2% 20px;
     }
 
     .huh{
         margin: 0;
         padding: 0;
         padding-bottom: 5px;
+        line-height:150%;
     }
 
     .Address_address{
-        line-height: 10px;
+        line-height: 20%;
     }
 }

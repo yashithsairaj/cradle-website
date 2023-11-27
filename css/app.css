@@ -49,6 +49,6 @@ body::-webkit-scrollbar {
 
 @media (max-width: 420px){
     .page_scroller{
-        right: 40px;
+        right: 3%;
     }
 }

@@ -20,7 +20,7 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 45px;
     font-weight: 700;
-    padding: 30px;
+    padding: 30px 0 30px 0;
     color: #95599b;
     cursor: default;
     transition: all 1s ease-in;
@@ -157,7 +157,7 @@
 
     .Programs-elements{
         width: 97%;
-        height: 30%;
+        height: 24vh;
         margin-bottom: 100px;
     }
 
@@ -192,7 +192,23 @@
 
     .Programs-elements:hover .Programs-text-hover div{
         padding-top: 25px;
-        font-size: 15px;
+        font-size: 3vw;
         line-height: 20px;
+    }
+
+    #Playschool{
+        padding-top: 10%;
+    }
+
+    #Nursery{
+        padding-top: 7%;
+    }
+
+    #Daycare{
+        padding-top: 7%;
+    }
+
+    #Summercamp{
+        padding-top: 1%;
     }
 }
