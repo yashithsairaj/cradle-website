@@ -41,11 +41,10 @@ html{
     width: 100vw;
     padding: 1% 1% 0.5% 1%;
     font-weight: 600;
-    z-index: 69;
 }
 
 .events_heading>h2{
-    color: #95599b;
+    color: rgb(150, 89, 155);
     font-size: 4vh;
     margin-top: 2%;
 }
@@ -80,7 +79,7 @@ hr:last-child{
 }
 
 .events_scroller::-webkit-scrollbar-thumb{
-    background-color:#ff8b17e7;
+    background-color:rgba(255, 140, 26, 0.906);
     border-radius: 50px;
 }
 
@@ -94,9 +93,10 @@ hr:last-child{
     max-width: 45%;
     object-fit: contain;
     border-radius: 20px;
+    cursor: pointer;
     transition: all 0.2s;
 }
-/* 
+/*
 .events_scroller>img:hover{
     transform: translateY(-3px);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -113,6 +113,50 @@ hr:last-child{
 .events_scroller>img:hover{
     z-index: 69;
     scale: 1.04;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1px;
+    background-color: rgba(0, 0, 0, 0.688);
+    animation: zoom 0.1s ease-in;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0.7);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.modal img {
+    width: 70%;
+    object-fit: cover;
+    z-index: 69;
+}
+
+.closeBtn {
+    color: rgb(150, 89, 155);
+    font-size: 60px;
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.closeBtn:hover {
+    color: rgb(255, 141, 26);
 }
 
 @media (max-width: 420px){
@@ -146,6 +190,10 @@ hr:last-child{
     hr{
         margin-top: 12%;
         margin-bottom: 10%;
+    }
+
+    .modal img {
+        width: 100%;
     }
 }
 

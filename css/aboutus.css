@@ -201,6 +201,7 @@
         font-size: 15px;
         text-indent: 0px;
         line-height: 25px;
+        padding: 30px 40px 30px 40px;
     }
 
     .montessori_heading{
@@ -213,7 +214,7 @@
     .montessori_box{
         width: 70vw;
         left: 46%;
-        padding: 20px;
+        padding: 30px 40px 30px 40px;
     }
 
     .montessori_content{
