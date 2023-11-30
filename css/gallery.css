@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;500;600&family=Quicksand:wght@300;400;500&display=swap');
 
+html{
+    overflow-x: none;
+    width: 100vw;
+}
 
 .gallery_heading{
     text-align: center;
@@ -51,6 +55,11 @@ hr{
     border: 1px solid #ff8b17e7;
 }
 
+hr:last-child{
+    border: none;
+    margin-bottom: none;
+}
+
 .events_scroller{
     background-color: aliceblue;
     border-radius: 10px;
@@ -63,6 +72,7 @@ hr{
     left: 50%;
     padding: 2px;
     box-shadow: 0 0 0 2px rgba(150, 89, 155, 1), 8px 8px 0 0 rgba(150, 89, 155, 1);
+    overflow-y: hidden;
 }
 
 .events_scroller::-webkit-scrollbar{
@@ -84,6 +94,7 @@ hr{
     max-width: 45%;
     object-fit: contain;
     border-radius: 20px;
+    transition: all 0.2s;
 }
 /* 
 .events_scroller>img:hover{
@@ -97,4 +108,49 @@ hr{
 
 .events_scroller>img:last-child{
     padding-right: 12px;
+}
+
+.events_scroller>img:hover{
+    z-index: 69;
+    scale: 1.04;
+}
+
+@media (max-width: 420px){
+    .gallery_heading{
+        font-size: 30px;
+        padding: 30px 0 30px 0;
+    }
+
+    .events_heading>h2{
+        font-size: 20px;
+        padding: 0 0 10px 5px;
+        margin-top: 0;
+    }
+
+    .events_heading{
+        padding-top: 0;
+    }
+
+    .events_scroller{
+        height: 20vh;
+    }
+
+    .events_scroller>img{
+        max-width: 90%;
+    }
+
+    .events_scroller::-webkit-scrollbar{
+        height: 1vh;
+    }
+
+    hr{
+        margin-top: 12%;
+        margin-bottom: 10%;
+    }
+}
+
+@media(max-width: 360px) {
+    .events_scroller>img{
+        max-width: 80%;
+    }
 }
