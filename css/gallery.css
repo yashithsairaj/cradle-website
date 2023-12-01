@@ -126,6 +126,7 @@ hr:last-child{
     margin-top: -1px;
     background-color: rgba(0, 0, 0, 0.688);
     animation: zoom 0.1s ease-in;
+    z-index: 15;
 }
 
 @keyframes zoom {
@@ -145,14 +146,17 @@ hr:last-child{
 
 .closeBtn {
     color: rgb(150, 89, 155);
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 900;
     position: absolute;
-    top: 0;
-    right: 10px;
+    top: 5%;
+    right: 8%;
     margin: 20px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 0 10px 0 10px;
 }
 
 .closeBtn:hover {
@@ -194,6 +198,11 @@ hr:last-child{
 
     .modal img {
         width: 100%;
+    }
+
+    .closeBtn{
+        top: 0;
+        right: 0;
     }
 }
 

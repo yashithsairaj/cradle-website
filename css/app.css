@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 
 .page_scroller {
     position: fixed;
-    z-index: 10000;
+    z-index: 10;
     width: 50px;
     height: 50px;
     bottom: 10px;
