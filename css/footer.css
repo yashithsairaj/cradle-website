@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.Footer_section{
+    height: 5vh;
+    background-color: #040404;
+    font-family: 'VT323', sans-serif;
+    padding: 2vh 0 0 1.5vh;
+}
+
+.Footer_section a{
+    transition: all 0.3s;
+    color: #bcc9cc;
+}
+
+.Footer_section a:hover{
+    color: #0d99f0;
+    text-shadow: 1px 2px 7px rgba(13, 153, 240, 1);
+}
